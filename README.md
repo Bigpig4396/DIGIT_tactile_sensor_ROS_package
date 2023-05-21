@@ -7,3 +7,8 @@ Lambeta, Mike, et al. "Digit: A novel design for a low-cost compact high-resolut
 publish at topic "DIGIT_frames" at 30 Hz, read it as an image sequence.
 
 file "DIGIT_node.py" is the interface of DIGIT and ROS, user should replace the sensor serial number with their owns. file "DIGIT_plot_node.py" is an example file that read data from topic "DIGIT_frames" and plot them in OpenCV.
+
+Depedencies:
+OpenCV-python
+Facebook DIGIT interface
+https://github.com/facebookresearch/digit-interface
